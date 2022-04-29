@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+body {
+
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s;
+    background-image: linear-gradient(180deg, #F3F6F5 46%, #F3F6F5 46%);
+}
+
+.formAirefreight {
+    background-color: #fff;
+    padding: 3%;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.formAirefreight input[type="text"],
+.formAirefreight select {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    outline: 0;
+}
+
+.alertSuccess,
+.alertDanger {
+    display: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.formAirefreight .city input {
+    margin-top: 3%;
+}
+
+.formAirefreight h4 {
+    color: #cc0099;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+}
+
+
+.cargodetails {
+    display: flex;
+}
+
+.cargodetails .inputLeft {
+    margin-left: 1%;
+}
+
+.transx_button {
+    color: #0a2b62;
+    background: transparent;
+    border-color: #0a2b62;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 40px 14px;
+    border: solid 2px;
+    border-radius: 0 0 15px 0;
+    letter-spacing: 0;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.transx_button:hover {
+    color: #ffff !important;
+    background: #cc0099 !important;
+    border-color: #cc0099 !important;
+}
+
+.action {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#cityPickup,
+#cityDelivery {
+    display: none;
+}
+
+.Cargo {
+    margin-top: 3%;
+}
+
+.formAirefreight label {
+    display: none !important;
+}
+
+
+.alert {
+    border-radius: 0;
+
+}
+
+
+
+
+
+
+.trailerType{
+    margin-top: 4%;
+}
+
+
+
+
+
+
+/* Version mobile */
+@media screen and (max-width: 700px) {
+    .menuCollapse ul li {
+        padding: 3%;
+        font-size: 12px;
+    }
+
+    .cargodetails {
+        display: block;
+    }
+
+    .transx_button {
+        width: 100%;
+    }
+
+    .action {
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .action .transx_button {
+        padding: 5%;
+        margin-left: 2%;
+    }
+
+}
